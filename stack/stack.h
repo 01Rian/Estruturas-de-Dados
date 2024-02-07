@@ -1,13 +1,14 @@
 typedef int TypeItem;
 const int MAX_ITENS = 100;
 
-class stack {
+class stack
+{
 
-  private:
+private:
   int size;
-  TypeItem* structure;
+  TypeItem *structure;
 
-  public:
+public:
   stack();
   ~stack();
   bool isFull();
@@ -16,5 +17,4 @@ class stack {
   TypeItem pop();
   void print();
   int lenght();
-
 };

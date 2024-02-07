@@ -1,16 +1,18 @@
 typedef int TypeItem;
 
 // Dynamic stack using linked list
-struct Node {
+struct Node
+{
   TypeItem value;
-  Node* next;
+  Node *next;
 };
 
-class linked_list {
-  private:
-  Node* node;
+class linked_list
+{
+private:
+  Node *node;
 
-  public:
+public:
   linked_list();
   ~linked_list();
   bool isEmpty();

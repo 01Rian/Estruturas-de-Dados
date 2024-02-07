@@ -1,12 +1,13 @@
 typedef int TypeItem;
 const int MAX_ITENS = 100;
 
-class queue {
-  private:
+class queue
+{
+private:
   int first, last;
-  TypeItem* structure;
+  TypeItem *structure;
 
-  public:
+public:
   queue();
   ~queue();
   bool isEmpty();
